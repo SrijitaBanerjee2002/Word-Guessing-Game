@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="clientTests" time="0.068" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven/target/test-classes:/Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven/target/classes:/Users/srijitabanerjee/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/srijitabanerjee/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/srijitabanerjee/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1-mac.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-mac.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1-mac.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven/target/surefire/surefirebooter6457487546716180874.jar /Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven/target/surefire 2023-11-24T13-25-21_481-jvmRun1 surefire7365859139347466449tmp surefire_0428451014981384253tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven/target/test-classes:/Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven/target/classes:/Users/srijitabanerjee/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/srijitabanerjee/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/srijitabanerjee/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-controls/19.0.2.1/javafx-controls-19.0.2.1-mac.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-graphics/19.0.2.1/javafx-graphics-19.0.2.1-mac.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-base/19.0.2.1/javafx-base-19.0.2.1-mac.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/srijitabanerjee/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/srijitabanerjee"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home"/>
+    <property name="basedir" value="/Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven/target/surefire/surefirebooter6457487546716180874.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/resources.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/rt.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jsse.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jce.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/charsets.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/jfr.jar:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_381-b09"/>
+    <property name="user.name" value="srijitabanerjee"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.4.1"/>
+    <property name="java.endorsed.dirs" value="/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/srijitabanerjee/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/71/gwjp6p3d0sz42slw_3cp07y40000gn/T/"/>
+    <property name="java.version" value="1.8.0_381"/>
+    <property name="user.dir" value="/Users/srijitabanerjee/Desktop/Finalised_Version_November_23/Client/fxmlExampleMaven"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/srijitabanerjee/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.381-b09"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="/Users/srijitabanerjee/Library/Java/Extensions:/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testGameLogicInitialization" classname="clientTests" time="0.033"/>
+  <testcase name="testAnimalCreation" classname="clientTests" time="0"/>
+  <testcase name="testCategoryInitialization" classname="clientTests" time="0.003"/>
+  <testcase name="testClientInitialization" classname="clientTests" time="0.003"/>
+  <testcase name="testEmptyAnimalDescriptions" classname="clientTests" time="0.003"/>
+</testsuite>
